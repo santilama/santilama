@@ -1,0 +1,86 @@
+body {
+  background-color: #926e21; }
+
+h1 {
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif; }
+
+ul {
+  list-style-image: url("https:/mdn.mozillademos.org/files/11981/startsolid.girf");
+  list-style-position: inside; }
+
+header {
+  background-color: white;
+  background-image: url("imagenes/logo.jpeg.png");
+  text-align: center;
+  background-size: 20% 100%;
+  background-repeat: no-repeat; }
+
+footer {
+  padding-bottom: 30px;
+  margin: bottom 15px; }
+
+p {
+  text-align: justify;
+  line-height: 40px;
+  letter-spacing: 1.5px; }
+
+/* Index */
+.contenido-index {
+  padding: 12px; }
+
+.menu-index {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .menu-index a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    background-color: gray;
+    padding: 5px; }
+  .menu-index .fila-menu-index {
+    display: flex;
+    margin: 16px 0 16px;
+    justify-content: space-around; }
+  .menu-index a:hover {
+    background: red;
+    font-size: 20px; }
+
+/* Galera */
+.titulo-galeria {
+  background-color: red; }
+
+/* Opiniones */
+.tiutlo-opiniones
+.parrafo-info {
+  font-size: 30px;
+  color: crimson; }
+
+.tabla-info tr {
+  color: darkmagenta; }
+
+.titulo-info {
+  text-decoration: underline;
+  font-size: 40px; }
+
+@media (max-width: 768px) {
+  .titulo-info {
+    background-color: red; } }
+
+@media (max-width: 480px) {
+  .titulo-info {
+    background-color: #4c00ff; } }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  gap: 1em; }
+  .grid div {
+    background: indigo;
+    padding: 1em; }
+  .grid div:hover {
+    border: 1px solid yellow; }
