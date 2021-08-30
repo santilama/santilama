@@ -1,8 +1,8 @@
 {
-  "name": "entrega",
+  "name": "santilama",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/index.scss css/index.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
