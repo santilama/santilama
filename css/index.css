@@ -51,7 +51,18 @@ p {
 
 /* Galera */
 .titulo-galeria {
-  background-color: red; }
+  background-color: red;
+  text-align: center; }
+
+.contenedor-imagenes-galeria {
+  display: flex; }
+
+.imagen-galeria {
+  width: 400px; }
+  .imagen-galeria h2 {
+    height: 72px; }
+  .imagen-galeria img {
+    width: inherit; }
 
 /* Opiniones */
 .tiutlo-opiniones

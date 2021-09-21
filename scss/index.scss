@@ -68,6 +68,23 @@ p {
 
 .titulo-galeria {
   background-color: red;
+  text-align: center;
+}
+
+.contenedor-imagenes-galeria {
+  display: flex;
+}
+
+.imagen-galeria {
+  width: 400px;
+
+  h2 {
+    height: 72px;
+  }
+  
+  img {
+    width: inherit;
+  }
 }
 
 /* Opiniones */
