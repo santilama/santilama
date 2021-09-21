@@ -46,7 +46,6 @@ p {
     margin: 16px 0 16px;
     justify-content: space-around; }
   .menu-index a:hover {
-    background: red;
     font-size: 20px; }
 
 /* Galera */
@@ -55,7 +54,9 @@ p {
   text-align: center; }
 
 .contenedor-imagenes-galeria {
-  display: flex; }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .imagen-galeria {
   width: 400px; }
@@ -86,12 +87,14 @@ p {
     background-color: #4c00ff; } }
 
 .grid {
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px;
+  grid-template-rows: 122px;
   gap: 1em; }
   .grid div {
-    background: indigo;
-    padding: 1em; }
-  .grid div:hover {
+    background: gray;
+    padding: 1em;
+    height: 122px; }
+  .grid div.card:hover {
     border: 1px solid yellow; }
